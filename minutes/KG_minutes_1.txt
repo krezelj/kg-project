@@ -1,0 +1,37 @@
+Meeting minutes: 06.11.2024
+ 
+What we prepared for the meeting
+- we read the article which is the source of the analysed data
+- we discussed possible directions of the project
+
+What we presented to teacher
+- our ideas for how we want to approach the project
+
+What questions we asked
+- what size of the subsets should we use?
+- what should we investigate first?
+- suggestions on the type of statistics we should try to calculate
+- if we try to create a model, should we predict it per batch or simply the mean RLS for the entire dataset?
+
+What feedback and answers we received
+- regressor is a good approach
+- where to get some of the statistics -- Riverbench 2.0.1
+- look at contents of literals and knowledge graphs and their degrees
+- we can take a look at stream preview -- see similarities between metrics 
+- we can measure how graphs are interconnecteed
+- should we use the whole datasets or subsets --> we can calucalte metrics in a manner that scales
+	For exaple with bloom filter. There is a whole class of algorithms that can be used for that (linked on Teams channel Apache DataSketches)
+	They calculate in constant memory and linear time.
+- there are different graphs distributions flat or stream. We should just downolad flat distribution.
+- if we were to create regressor should we predict average or per batch? -> It doesn't matter, any approach from those two works.
+
+
+Our current project work plan
+- obtain and load subsets of the used datasets for initial analysis
+- investigate the datasets and get some insight into how they might differ
+- prepare descriptive statistics and calculate them for all datasets
+- create a simple model that tries to predict the RLS based on the statistics
+
+
+
+

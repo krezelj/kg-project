@@ -1,0 +1,47 @@
+Meeting minutes: 09.12.2024
+ 
+What we prepared for the meeting
+- aggregated the data for all datasets
+- additional analysis for the other two datasets
+- linear regression experiment
+- notebook with milestone progress which will be a part of the final notebook
+- more thourough analysis of literls
+- a more concrete hypothesis as to what really affects the loading speed (str_ratio/total_str_len)
+- correlation analysis
+- feature removal
+- single feature predictions
+- train/test split experiment
+- initial prediction of speed for a held out dataset
+
+What we presented to teacher
+- linear regression experiment
+- the milestone notebook containing a more thourough analysis
+- more experiments and a new hypothesis
+
+What questions we asked
+- what might be the reason for linked spending to be faster than expected?
+
+What feedback and answers we received
+- we should normalise before calculating correlations
+- linked-spending might have a lot of special characters -> bytes may give better results than character count
+- in the extra experiment with linear regression, linear regression won't work alone for the averages
+    -> we also need batches (and not take the average)
+
+
+Our current project work plan
+- for the last meeting:
+    - investigate why linked spending doesn't follow the trend exactly
+    - analyse more features
+    - try to obtain better predictions for a held out dataset using total_str_len 
+        and predict speed for openaire-lod dataset
+        
+
+- for project delivery:
+    - clean notebooks with our analysis and code to train the regressors
+    - github repo with open license
+    - presentation of our results
+
+
+
+
+

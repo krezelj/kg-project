@@ -1,0 +1,51 @@
+Meeting minutes: 25.11.2024
+ 
+What we prepared for the meeting
+- initial simple analysis of the datasets
+- calculated simple statistics for each dataset
+- trained a simple regressor
+
+What we presented to teacher
+- the results of the trained regressor
+- first hypothesis as to what affects the loading time
+- our thoughts about further analysis of object types influencing the loading times
+
+What questions we asked
+- is our approach sound?
+
+What feedback and answers we received
+- use the other two datasets from the paper and see what happens
+- calculate correlations between features
+- we can't really compare loading times between batches -> we have to come up with a solution
+- we should still experiment with other metrics
+- try to remove the most important feature and see what happens etc.
+- we can try and predict the loading speed of a 9th dataset (openaire-lod)
+- if we keep the pace our work should be enough for the PoC for the next meeting
+- final deliverable form:
+    - github repository with open license
+    - jupyter notebooks with some narrative
+
+Our current project work plan
+- for the next meeting (milestone):
+    - proof of concept
+    - incude the other two datasets
+    - come up with a solution on how to handle batches
+    - further analysis of how literals and other object types affect the loading speed
+    - calculate correlations between features
+    - try removing the most important feature etc.
+    - apart from literal analysis calculate other metrics
+    
+- for the last meeting:
+    - train linear regressor and comparison of results with the RandomForestRegressor
+    - try and predict the loading speed of openaire-lod
+    - finished analysis and conclusions based on what we have found
+
+- for project delivery:
+    - clean notebooks with our analysis and code to train the regressors
+    - github repo with open license
+    - presentation of our results
+
+
+
+
+
